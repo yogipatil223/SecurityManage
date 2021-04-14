@@ -25,6 +25,8 @@ public class ClientReqRest {
 	@PostMapping("/setClientReq")
 	public String setClientReq(@RequestBody ClientReqBean bean) {
 		System.out.println("code is working fine");
+		System.out.println("all are understand");
+		System.out.print("ok");
 		String result = service.setClientRequest(bean);
 		return result;
 	}
