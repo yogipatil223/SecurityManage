@@ -33,7 +33,7 @@ public class ClientReqRest {
     public List<ClientReqBean> getClientRequest(){
 		
 		List<ClientReqBean> result = service.getClientRequests();
-		
+		System.out.println("Now changes in another method");
 		return result;
 	}
 	
